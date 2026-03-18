@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" width="220" height="80">
+  <!-- Car silhouette -->
+  <g transform="translate(10, 2) scale(0.9)">
+    <!-- Shadow -->
+    <ellipse cx="100" cy="54" rx="75" ry="5" fill="rgba(0,0,0,0.15)"/>
+    <!-- Body lower -->
+    <path d="M20 44 Q22 52 35 54 L165 54 Q178 52 180 44 L175 38 L25 38 Z" fill="white"/>
+    <!-- Body upper -->
+    <path d="M55 38 Q65 22 85 18 L130 18 Q150 20 158 38 Z" fill="white"/>
+    <!-- Windshield -->
+    <path d="M88 20 Q90 22 95 36 L125 36 Q132 22 128 20 Z" fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.5)" stroke-width="0.5"/>
+    <!-- Rear window -->
+    <path d="M60 36 L68 22 L88 20 L92 36 Z" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.4)" stroke-width="0.5"/>
+    <!-- Spoiler -->
+    <rect x="155" y="28" width="22" height="3" rx="1" fill="white"/>
+    <rect x="172" y="28" width="3" height="10" rx="1" fill="white"/>
+    <!-- Front bumper detail -->
+    <path d="M20 44 Q15 46 18 50 L35 54" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <!-- Stripe -->
+    <path d="M95 18 L100 18 L108 54 L103 54 Z" fill="rgba(201,168,76,0.6)"/>
+    <!-- Rear wheel -->
+    <circle cx="55" cy="54" r="12" fill="#1a1a2e" stroke="white" stroke-width="2"/>
+    <circle cx="55" cy="54" r="7" fill="#0d2b4e" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+    <circle cx="55" cy="54" r="3" fill="white"/>
+    <!-- Front wheel -->
+    <circle cx="145" cy="54" r="12" fill="#1a1a2e" stroke="white" stroke-width="2"/>
+    <circle cx="145" cy="54" r="7" fill="#0d2b4e" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+    <circle cx="145" cy="54" r="3" fill="white"/>
+    <!-- Headlight -->
+    <ellipse cx="178" cy="42" rx="4" ry="2.5" fill="rgba(255,255,220,0.9)"/>
+  </g>
+  <!-- Text -->
+  <text x="110" y="76" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="4" text-anchor="middle" fill="white">HILLS<tspan fill="#c9a84c">.ge</tspan></text>
+</svg>
