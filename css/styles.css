@@ -105,6 +105,7 @@ p  { color: var(--gray); }
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  letter-spacing: 0;
   color: var(--white);
   font-size: 1.5rem;
   font-weight: 800;
@@ -568,3 +569,5 @@ p  { color: var(--gray); }
 .mb-2 { margin-bottom: 1rem; }
 .section-header { text-align: center; max-width: 600px; margin: 0 auto 1rem; }
 .section-header p { margin-top: 0.75rem; font-size: 1.05rem; }
+
+.logo span { letter-spacing: 0; margin-left: -2px; }
